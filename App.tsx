@@ -2,7 +2,6 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { Dasboard } from './src/pages/Dashboard';
 import theme from './src/global/styles/theme';
-import AppLoading from 'expo-app-loading';
 
 import {
   useFonts,
@@ -18,9 +17,7 @@ export default function App() {
     Poppins_700Bold,
   });
 
-  if(!fontsLoaded) {
-    return <AppLoading />
-  }
+  console.log(fontsLoaded);
 
   return (
     <ThemeProvider theme={theme}>

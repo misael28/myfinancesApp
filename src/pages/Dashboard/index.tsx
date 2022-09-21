@@ -1,11 +1,13 @@
 import React from 'react'
 
-import { Container, Title } from './style'
+import { Container, Header } from './style'
 
 export function Dasboard () {
   return (
     <Container>
-      <Title>Dashboard</Title>
+      <Header>
+        
+      </Header>
     </Container>
   )
 }
