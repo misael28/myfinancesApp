@@ -14,12 +14,13 @@ export default {
         shape: '#fff',
         title: '#363f5f',
         text: '#969cb2',
+        text_dark: '#000000',
         background: '#f0f2f5', 
     },
 
     fonts: {
-        regular: 'Roboto_400Regular',
-        medium: 'Roboto_500Medium',
-        bold: 'Roboto_700Bold',
+        regular: 'Roboto_400_Regular',
+        medium: 'Roboto_500_Medium',
+        bold: 'Roboto_700_Bold',
     }
 }
