@@ -105,7 +105,7 @@ export function Dasboard () {
         <Title>Listagem</Title>
         <TransactionsLists 
           data={data}
-          renderItem={(item: ITransactionsProp) => <TransactionsCard data={item.data}/>}
+          renderItem={({ item }) => <TransactionsCard data={item}/>}
           showsVerticalScrollIndicator={false}
           contentContainerStyle={{
             paddingBottom: getBottomSpace()
