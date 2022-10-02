@@ -17,8 +17,6 @@ export default function App() {
     Poppins_700Bold,
   });
 
-  console.log(fontsLoaded);
-
   return (
     <ThemeProvider theme={theme}>
       <Dasboard />

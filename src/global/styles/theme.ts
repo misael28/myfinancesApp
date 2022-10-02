@@ -19,8 +19,8 @@ export default {
     },
 
     fonts: {
-        regular: 'Roboto_400_Regular',
-        medium: 'Roboto_500_Medium',
-        bold: 'Roboto_700_Bold',
+        regular: 'Roboto_400Regular',
+        medium: 'Roboto_500Medium',
+        bold: 'Roboto_700Bold',
     }
 }
